@@ -1,6 +1,6 @@
 import requests
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from Backend.config import NEWS_API_KEY
+from Backend.Config.config import NEWS_API_KEY
 
 def fetch_stock_news_newsapi(symbol: str, api_key: str, page_size: int = 10):
     """

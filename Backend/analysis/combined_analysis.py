@@ -2,7 +2,7 @@
 import pandas as pd
 from data.data_ingestion import fetch_stock_data
 from analysis.sentiment_analysis_newsapi import analyze_stock_news_sentiment
-from Backend.config import NEWS_API_KEY  # Your API key stored in config.py
+from Backend.Config.config import NEWS_API_KEY  # Your API key stored in config.py
 
 
 def combined_stock_and_sentiment_analysis(symbol: str, period: str = "1y"):
