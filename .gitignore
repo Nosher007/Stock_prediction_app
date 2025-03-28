@@ -1,1 +1,3 @@
-Backend/Config/
+Backend/Config/config.py
+/Backend/Model/merged_data.csv
+/Backend/analysis/combined_analysis.json
